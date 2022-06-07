@@ -1,0 +1,317 @@
+header{
+    position: relative;
+    width: 100%;
+
+border-radius: 0px;
+
+background: #FEFFFF;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+
+display: flex;
+justify-content: space-between ;
+box-sizing: border-box;
+padding: 2rem 0rem;
+
+}
+
+#header-div1{
+
+    display: flex;
+    align-items: center;
+     
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+color: #3958A7;
+font-size: 2rem ;
+letter-spacing: -0.065em;
+
+
+
+    
+    
+}
+
+
+ #Sail{ 
+width: 4rem;
+height:1.5rem;
+padding: 0rem 0rem 0rem 1rem;
+
+
+}
+
+button{
+    padding: 0.5rem 2rem;
+    
+}
+
+
+
+   
+
+#first-button{
+    color:  #FFFFFF ;
+    background: #3958A7;
+border-radius: 0.5rem;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+
+
+  /*
+right: 4rem;
+top: 2.625rem;
+
+background: #3958A7;
+border-radius: 4.9892px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 0.875rem;
+line-height: 1.3125rem;
+/* identical to box height............... 
+
+color: #FFFFFF;
+*/
+
+}
+
+
+
+#second-button {
+
+box-sizing: border-box;
+
+
+
+border: 1px solid #0134B7;
+border-radius: 0.5rem;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: rgba(51, 51, 51, 0.4);
+
+}
+
+.next{
+    
+    position: relative;
+    display: flex;
+    padding: 1rem 4rem;
+    font-family: 'Poppins';
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap:wrap;
+    box-sizing: border-box
+    
+}
+
+ #my-picture{
+     width: 100%;
+     height: 35rem;
+     box-sizing: border-box;
+ }
+
+ #first-div{
+    /* position: absolute; */
+    width: 100%;
+    height: 40rem;
+    
+    padding: 0rem 1rem;
+    box-sizing: border-box;
+
+    
+    
+    
+ }
+
+ #participate{
+     
+     width: 50%;
+     height: 20rem ;
+     font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    /* or 141% */
+    padding: 0rem 2rem ;
+    box-sizing: border-box;
+    
+    
+    color: #000000;
+    
+ }
+ #third-div{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 23px;
+    
+    color: rgba(0, 0, 0, 0.65);
+    
+ }
+
+ #thank-you{
+
+    width: 15rem;
+    height: 5rem;
+    
+    
+    background: rgba(1, 52, 183, 0.72);
+    border-radius: 0.5rem;
+    padding: 1rem 0rem 0rem 2.5rem;
+    
+ }
+
+ img{
+     width: 30rem;
+     height: 20rem;
+     padding: 0rem 2rem;
+ }
+
+ .quote{
+     width: 1.5rem;
+     height: 2rem;
+ }
+ #quote-2{
+     float: right;
+     bottom: 2rem;
+ }
+ #about-content{
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.4961px;
+    line-height: 23px;
+    
+    color: rgba(0, 0, 0, 0.65);
+    
+    
+ }
+
+ #sub-content{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #2752BF;
+    
+    
+ }
+
+.reachout{
+display: flex;
+padding: 1em 2em;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+box-sizing: border-box;
+background: #F9F9F9;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+
+
+
+}
+
+.sub-reach{
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.icons{
+
+width: 1.5rem;
+height: 2rem;
+}
+
+.headings{
+
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 145.5%;
+/* identical to box height, or 15px */
+
+
+color: #000000;
+
+opacity: 0.38;
+
+}
+
+.sub-heading{
+    
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.75);
+}
+
+footer{
+    padding: 0rem 2.5rem;
+    position: relative;
+    width: 100%;
+
+border-radius: 0px;
+
+background: #FEFFFF;
+
+
+display: flex;
+justify-content: space-between ;
+box-sizing: border-box;
+padding: 2rem 0rem;
+}
+
+.footer-header{
+
+font-style: normal;
+font-weight: 500;
+font-size: 12.1147px;
+line-height: 18px;
+
+color: #00A347;
+}
+
+.sub-footer-header{
+    
+font-style: normal;
+font-weight: 400;
+font-size: 12.1147px;
+line-height: 13px;
+/* or 107% */
+
+
+color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+ @media screen and (min-width: 375px) { 
+    
+.next{
+     flex-wrap:nowrap ; 
+}
+     
+ }
